@@ -93,8 +93,8 @@
    
    
    .box div { /*chamando minhas caixas / div para estilização*/
-     height: 150px; /*Altura*/
-     width: 150px;  /*Largura*/
+     height: 300px; /*Altura*/
+     width: 300px;  /*Largura*/
      border: 1px solid black; /*Estilização da borda*/
      background-color: rgb(171, 23, 134); /*Cor de fundo*/
      font-size: 60px; /*Tamanho da letra*/
@@ -119,3 +119,16 @@
     color: white;
     border-radius: 2rem;
   }
+  
+  .box .hidden p {
+    font-size: 1rem;
+    color: blue;
+    
+  }
+ 
+  .box .hidden img {
+    width: 300px;
+    height: 300px;
+  }
+   
+  
